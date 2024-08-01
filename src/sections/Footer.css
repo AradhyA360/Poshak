@@ -1,0 +1,104 @@
+/* Footer.css */
+.footer {
+  background-color: #222;
+  color: #eee;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 1rem;
+}
+
+.footer-section h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ff6347;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.footer-link {
+  color: #eee;
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.footer-link:hover {
+  color: #ff6347;
+  text-shadow: 0 0 5px #ff6347;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-icon {
+  font-size: 1.8rem;
+  color: #eee;
+  margin-right: 1rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icon:hover {
+  color: #ff6347;
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .social-media-icons {
+    justify-content: center;
+  }
+}

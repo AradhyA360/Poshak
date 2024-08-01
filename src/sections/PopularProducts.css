@@ -1,0 +1,67 @@
+.popular-products {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.popular-products h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-info {
+  margin-top: 1rem;
+}
+
+.product-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-info p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.add-to-cart {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #ff6347;
+}
+
+/* Slick Carousel Customization */
+.slick-slide {
+  padding: 0 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #ff4500;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff6347;
+}

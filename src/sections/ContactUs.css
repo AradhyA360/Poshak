@@ -1,0 +1,95 @@
+/* ContactUs.css */
+.contact-us {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ff6347;
+}
+
+.contact-us p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-item i {
+  font-size: 2.5rem;
+  color: #ff6347;
+  margin-right: 1rem;
+}
+
+.contact-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.contact-info a {
+  color: #ff6347;
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.contact-info a:hover {
+  color: #333;
+  text-shadow: 0 0 5px #ff6347;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-item {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .contact-item i {
+    margin-bottom: 0.5rem;
+  }
+}
