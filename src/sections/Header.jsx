@@ -19,38 +19,38 @@ const Header = () => {
         <ul className="nav-links">
           <li>
             <a
-              href="#home"
+              href="#men"
               className="nav-link"
               onClick={() => setIsMenuOpen(false)}
             >
-              Home
+              Men
             </a>
           </li>
           <li>
             <a
-              href="#shop"
+              href="#women"
               className="nav-link"
               onClick={() => setIsMenuOpen(false)}
             >
-              Shop
+              Women
             </a>
           </li>
           <li>
             <a
-              href="#about"
+              href="#Kids"
               className="nav-link"
               onClick={() => setIsMenuOpen(false)}
             >
-              About
+              Kids
             </a>
           </li>
           <li>
             <a
-              href="#contact"
+              href="#accessories"
               className="nav-link"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contact
+              Accessories
             </a>
           </li>
         </ul>

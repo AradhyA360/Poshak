@@ -1,0 +1,98 @@
+.deals {
+  padding: 2rem;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.deals h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #ff6347;
+  font-weight: bold;
+}
+
+.deal-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.deal-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.deal-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.deal-info {
+  margin-top: 1rem;
+}
+
+.deal-info h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.deal-info .original-price {
+  font-size: 1rem;
+  color: #888;
+  text-decoration: line-through;
+  margin-bottom: 0.5rem;
+}
+
+.deal-info .deal-price {
+  font-size: 1.2rem;
+  color: #ff4500;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.shop-now {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shop-now:hover {
+  background-color: #ff6347;
+}
+
+.slick-list {
+  overflow: hidden;
+  margin: 0 -10px; /* Adjust this value if there's extra space around the slides */
+}
+
+.slick-slide {
+  padding: 0 10px;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .deals h2 {
+    font-size: 2rem;
+  }
+
+  .deal-card {
+    margin: 0 auto;
+  }
+
+  .shop-now {
+    padding: 0.4rem 0.8rem;
+  }
+}
